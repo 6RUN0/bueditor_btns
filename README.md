@@ -4,7 +4,7 @@ bueditor_btns - buttons for [bueditor](http://ufku.com/drupal/bueditor "Project 
 [](#description-ru)
 russian only
 
-Это форк [данного репозитория](/turbopxl/bueditor_btns).
+Это форк [данного репозитория](https://github.com/turbopxl/bueditor_btns).
 
 [](#requre-ru)
 Требует:
@@ -26,8 +26,8 @@ russian only
  2. На странице <http://example.com/admin/config/content/bueditor/import> необходимо указать: название редактора, директорию, куда будут сохранены картинки, и скопировать в текстовое поле "Editor code (PHP)" содержимое файла *.bueditor.txt.
 
 [](#bbcode-turbopxl-ru)
- Файл [bbcode-turbopxl.bueditor.txt](/6RUN0/bueditor_btns/blob/master/bbcode-turbopxl.bueditor.txt) содержит набор кнопок для генерации bbcode. Подробнее о фильтре bbcode можно прочесть на странице <http://example.com/filter/tips>, которая будет доступна после установки модуля bbcode и создания соответствующего формата ввода данных.
+ Файл [bbcode-turbopxl.bueditor.txt](bbcode-turbopxl.bueditor.txt) содержит набор кнопок для генерации bbcode. Подробнее о фильтре bbcode можно прочесть на странице <http://example.com/filter/tips>, которая будет доступна после установки модуля bbcode и создания соответствующего формата ввода данных.
  В данном наборе еще не реализовано два тега [abbr] и [acronym], т.к. картинку по смыслу подобрать пока не могу.
 
 [](#Turbopxl-ru)
- О наборе кнопок [Turbopxl.bueditor.txt](/6RUN0/bueditor_btns/blob/master/Turbopxl.bueditor.txt) можно прочесть [тут](/turbopxl/bueditor_btns/blob/master/README.md)
+ О наборе кнопок [Turbopxl.bueditor.txt](Turbopxl.bueditor.txt) можно прочесть [тут](https://github.com/turbopxl/bueditor_btns/blob/master/README.md)
