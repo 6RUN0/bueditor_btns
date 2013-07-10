@@ -1,30 +1,33 @@
-bueditor_btns
-=============
+[](#name)
+bueditor_btns - buttons for [bueditor](http://ufku.com/drupal/bueditor "Project BUEditor")
 
-Custom buttons for bueditor module. Tested on drupal-7.x. versions.
+[](#description-ru)
+russian only
 
-Currently there are 4 groups of buttons:
-1. Bold, Italic, Underline, Strikethrough
-2. Headings, Ordered/Unordered lists, Quotes, Code
-3. Insert link, Image (from url), Upload file (One Click upload module is required - https://drupal.org/project/ocupload),
-   Insert symbol, Text color, Insert table
-4. Teaser break, Preview, Help.
+Это форк [данного репозитория](/turbopxl/bueditor_btns).
 
+[](#requre-ru)
+Требует:
 
-To enable:
- 1. download bueditor here - https://drupal.org/project/bueditor ;
- 2. enable bueditor module - yoursite.com/admin/modules ;
- 3. download folder "turbueditor" and place it here - yoursite.com/sites/default/files ;
- 4. go to bueditor config - yoursite.com/admin/config/content/bueditor ;
- 5. click "Import editor" - yoursite.com/admin/config/content/bueditor/import ;
- 6. -- Editor name: whatever you want
-    -- Directory of editor files: turbueditor
-    -- Directory of editor files: paste all code from Turbopxl.bueditor.txt
-    -- Overwrite: if you want to overwrite existing editors you may choose one (optionally).
- 7. click "import" ;
- 8. In "Role-editor assignments" assign imported editor for roles.
- 9. Profit!
- 
- -------------------------------------------
- Процесс установки редактора можно прочитать и тут - http://turbopxl.ru/drupal/kastomnye-knopki-dlya-bueditor
- 
+ * [drupal](https://drupal.org/project/drupal "Drupal")
+ * [bueditor](https://drupal.org/project/bueditor "BUEditor")
+ * [bbcode](https://drupal.org/project/bbcode "BBCode")
+
+[](#recommended-ru)
+Рекомендуется:
+
+ * [quote](https://drupal.org/project/quote "Quote")
+ * [ajax_markup](http://drupal.org/project/ajax_markup "Ajax markup")
+
+[](#install-ru)
+Установка:
+
+ 1. Установить drupal и необходимые модули ( [Установка drupal](https://drupal.org/documentation/install "Installation Guide"), [установка модулей](https://drupal.org/documentation/install/modules-themes "Installing modules and themes") ). 
+ 2. На странице <http://example.com/admin/config/content/bueditor/import> необходимо указать: название редактора, директорию, куда будут сохранены картинки, и скопировать в текстовое поле "Editor code (PHP)" содержимое файла *.bueditor.txt.
+
+[](#bbcode-turbopxl-ru)
+ Файл [bbcode-turbopxl.bueditor.txt](/6RUN0/bueditor_btns/blob/master/bbcode-turbopxl.bueditor.txt) содержит набор кнопок для генерации bbcode. Подробнее о фильтре bbcode можно прочесть на странице <http://example.com/filter/tips>, которая будет доступна после установки модуля bbcode и создания соответствующего формата ввода данных.
+ В данном наборе еще не реализовано два тега [abbr] и [acronym], т.к. картинку по смыслу подобрать пока не могу.
+
+[](#Turbopxl-ru)
+ О наборе кнопок [Turbopxl.bueditor.txt](/6RUN0/bueditor_btns/blob/master/Turbopxl.bueditor.txt) можно прочесть [тут](/turbopxl/bueditor_btns/blob/master/README.md)
